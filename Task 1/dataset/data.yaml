@@ -1,7 +1,8 @@
-path: D:/studys/Pycharm/PycharmProjects/Robot-2026-Joe/Task 1/dataset
+path: D:/studys/Pycharm/PycharmProjects/Robot-2026-8-Joe/Task 1/dataset
 
 train: images/train
 val: images/val
+
 names:
   0: mouse
   1: cup

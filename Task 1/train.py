@@ -12,7 +12,7 @@ model.train(
     imgsz=640,
     batch=16,
     device=0,
-    workers=4
+    workers=0
 )
 
 
