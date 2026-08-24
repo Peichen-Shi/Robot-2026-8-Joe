@@ -10,8 +10,8 @@
 import os
 import random
 from PIL import Image, ImageEnhance, ImageFilter
-INPUT_DIR = r"D:\studys\Pycharm\PycharmProjects\Robot-2026-8-Joe\Task 1\dataset\images\cup"
-OUTPUT_DIR = r"D:\studys\Pycharm\PycharmProjects\Robot-2026-8-Joe\Task 1\dataset\aug_images\cup"
+INPUT_DIR = r"/Task1\dataset\images\cup"
+OUTPUT_DIR = r"/Task1\dataset\aug_images\cup"
 # 每张图片生成数量
 AUG_NUM = 5
 

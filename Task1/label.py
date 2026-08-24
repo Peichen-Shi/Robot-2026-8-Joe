@@ -3,7 +3,7 @@
 import cv2
 import os
 
-IMAGE_DIR = r"D:\studys\Pycharm\PycharmProjects\Robot-2026-8-Joe\Task 1\dataset\images\mouse"
+IMAGE_DIR = r"/Task1\dataset\images\mouse"
 LABEL_DIR = r"dataset/labels/cup"
 
 CLASS_ID = 0   # mouse类别q

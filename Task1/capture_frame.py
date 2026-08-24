@@ -2,7 +2,7 @@ import cv2
 from pathlib import Path
 
 VIDEO_PATH = r"C:\Users\spc\Desktop\cup.mp4"
-OUTPUT_DIR = Path(r"D:\studys\Pycharm\PycharmProjects\Robot-2026-8-Joe\Task 1\dataset\images\cup")
+OUTPUT_DIR = Path(r"/Task1\dataset\images\cup")
 
 # 每秒抽取多少张
 TARGET_FPS = 2
