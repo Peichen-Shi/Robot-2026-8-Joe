@@ -3,7 +3,7 @@ import cv2
 import os
 
 
-model = YOLO("./runs/detect/train/weights/best.pt")
+model = YOLO("./runs/detect/train-2/weights/best.pt")
 
 
 img_dir = "./dataset/images/val"

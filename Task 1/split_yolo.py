@@ -18,7 +18,7 @@ OUT_IMAGE_DIR = "./dataset/images"
 OUT_LABEL_DIR = "./dataset/labels"
 
 
-VAL_RATIO = 0.2
+VAL_RATIO = 0.4
 
 
 

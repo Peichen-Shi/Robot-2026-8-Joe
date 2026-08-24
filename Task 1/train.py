@@ -8,7 +8,7 @@ model = YOLO("./yolov10/yolov10n.pt")
 # 开始训练
 model.train(
     data="./dataset/data.yaml",
-    epochs=100,
+    epochs=20,
     imgsz=640,
     batch=16,
     device=0,
