@@ -1,8 +1,8 @@
 import cv2
 from pathlib import Path
 
-VIDEO_PATH = r"C:\Users\spc\Desktop\mouse.mp4"
-OUTPUT_DIR = Path(r"/Task 1/images")
+VIDEO_PATH = r"C:\Users\spc\Desktop\cup.mp4"
+OUTPUT_DIR = Path(r"D:\studys\Pycharm\PycharmProjects\Robot-2026-8-Joe\Task 1\dataset\images\cup")
 
 # 每秒抽取多少张
 TARGET_FPS = 2
@@ -34,7 +34,7 @@ def extract_frames(video_path, output_dir, target_fps):
         if not ret:
             break
         if frame_id % frame_interval == 0:
-            filename = (output_dir/f"mouse_{save_id:04d}.jpg")
+            filename = (output_dir/f"cup_{save_id:04d}.jpg")
             cv2.imwrite(str(filename),frame)
             save_id += 1
         frame_id += 1
