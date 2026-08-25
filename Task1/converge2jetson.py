@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 model = YOLO(
-    r"/Task1\runs\detect\train-2\weights\best.pt"
+    r"runs/detect/train/weights/best.pt"
 )
 
 model.export(
