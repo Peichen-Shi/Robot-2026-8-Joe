@@ -61,4 +61,4 @@
   - Jetson Orin NX 连接电脑的方式有两种：
     - 通过网线连接电脑和 Jetson，电脑和 Jetson 在同一局域网下，通过 ssh 连接 Jetson
     - 通过 USB-C 数据线连接电脑和 Jetson，电脑和 Jetson 在同一局域网下，通过 ssh 连接 Jetson
-      - 不方便，未使用 
+      - 不方便，未使用
