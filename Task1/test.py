@@ -1,12 +1,12 @@
 from ultralytics import YOLO
 
 # 1. 加载训练好的最佳模型
-model = YOLO("./runs/detect/train/weights/best.pt")
+model = YOLO("./runs/detect/train-4/weights/best.pt")
 
 
 # 2. 在验证集上评估
 results = model.val(
-    data="./dataset/data.yaml",
+    data="./dataset_new/data.yaml",
     split="val",
     imgsz=640,
     batch=16,
