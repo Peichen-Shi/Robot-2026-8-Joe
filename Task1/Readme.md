@@ -56,3 +56,9 @@
   - 将onnx模型通过ssh传输到Jetson上
   - 在Jetson上找到摄像头设备，并通过代码调用摄像头进行实时检测
 - 在 Jetson上建立了自己的项目 PeichenShi，保证与其他组员的项目独立
+- 代码：主要是调用onnxruntime进行推理，代码在 camera_yolo.py 中
+- 关于连接
+  - Jetson Orin NX 连接电脑的方式有两种：
+    - 通过网线连接电脑和 Jetson，电脑和 Jetson 在同一局域网下，通过 ssh 连接 Jetson
+    - 通过 USB-C 数据线连接电脑和 Jetson，电脑和 Jetson 在同一局域网下，通过 ssh 连接 Jetson
+      - 不方便，未使用
